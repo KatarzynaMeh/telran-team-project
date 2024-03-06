@@ -1,0 +1,28 @@
+.container {
+  background-image: linear-gradient(rgb(61, 61, 61, 0.5), rgb(61, 61, 61, 0.5)),
+    url("../images/baner_images.jpg");
+  opacity: 4;
+  background-size: cover;
+  background-position: left center;
+  height: 600px;
+  padding: 70px 50px ;
+}
+
+.text_amazing__discounts {
+  width: 1360px;
+  height: 212px;
+  color: var(--color-background);
+}
+
+.button_check{
+    margin-top: 40px;
+    height: 40px;
+    width: 120px;
+    background: var(--color-accent);
+    color: var(--color-background);
+    padding: 16px, 56px, 16px, 56px;
+    border: none;
+    border-radius: var( --radius-small);   
+    font-size: 20px; 
+   
+}
